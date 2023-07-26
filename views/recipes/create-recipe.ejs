@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/header.ejs', {title: "Julio's Mexican Recipes"}) %>
+    <link rel="stylesheet" href="/styles/recipe-form.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    
+    <%- include('../partials/nav.ejs') %>
+
+    <h1>New Recipe Form</h1>
+
+    <form method="POST" action="/recipes">
+        <!-- Name input -->
+        <label for="name">Name of Recipe:</label>
+        <input type="text" name="name" required>
+        <br>
+        <!-- description input -->
+        <label for="description">Description:</label>
+        <textarea name="description" required></textarea>
+        <br>
+        <!-- ingredients input -->
+        <label for="ingredients">Ingredients:</label>
+        <textarea name="ingredients" required></textarea>
+        <br>
+        <!-- instructions input -->
+        <label for="instructions">Instructions:</label>
+        <textarea name="instructions" required></textarea>
+        <br>
+        <!-- picture input -->
+        <label for="picture">Picture (URL):</label>
+        <input type="text" name="picture" required>
+        <br>
+        <!-- foodType input -->
+        <label for="foodType">Food Type:</label>
+        <select name="foodType" required>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Dessert">Dessert</option>
+            <option value="Drink">Drink</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <input type="submit" value="Create Recipe">
+    </form>
+
+    <%- include('../partials/footer.ejs') %>
+
+</body>
+
+</html>

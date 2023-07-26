@@ -1,0 +1,143 @@
+/* Reset styles for cross-browser consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: TequilaSunset;
+    src: url('../fonts/TequilaSunsetRegular-J8ME.ttf');
+}
+
+@font-face {
+    font-family: PapayaSunrise;
+    src: url('../fonts/PapayaSunrise-OzdO.ttf');
+}  
+
+@font-face {
+    font-family: TacoSalad;
+    src: url('../fonts/TacoSalad-vmWM.ttf');
+}  
+
+@font-face {
+    font-family: PresTequila;
+    src: url('../fonts/PresidenteTequila-jD59.ttf');
+} 
+
+
+/* General styles */
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: PapayaSunrise;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #333;
+    min-height: 100vh;
+    /* letter-spacing: 5px; */
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 193, 7, 1);
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: TequilaSunset;
+    /* font-size: 60px; */
+    font-size: 45px;
+}
+
+.pos {
+    font-family: Arial, sans-serif;
+    display: inline;
+    /* padding: 0;
+    margin: 0; */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: rgba(51, 51, 51, .5);
+    border-radius: 15px;
+    padding: .3rem 2rem;
+}
+
+nav li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+nav a {
+    font-family: TequilaSunset;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+/* Header section styles */
+.front-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    height: 40vh;
+}
+
+.front-display h2 {
+    font-family: TequilaSunset;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: rgba(255, 87, 34, .8);
+    color: rgb(13, 19, 33);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 193, 7, 1);
+}
+
+footer * {
+    color: black;
+}
+
+footer ul {
+    justify-content: center;
+}

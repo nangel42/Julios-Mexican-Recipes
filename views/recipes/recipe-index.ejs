@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/header.ejs', {title: "Julio's Mexican Recipes"}) %>
+    <link rel="stylesheet" href="/styles/recipe-index.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <%- include('../partials/nav.ejs') %>
+
+    <main>
+        <section class="listings">
+            <h1>Current Recipes!</h1>
+            <ul>
+                <% for (let product of Recipe) { %>
+                <li>
+                    <figure>
+                        <img src="<%= product.picture %>">
+                        <figcaption>
+                            <h4><%= product.name %></h4>
+                            <p><%= product.description %></p> 
+                            <p>Food Type: <%= product.foodType %></p>
+                            <br>
+                            <br>
+                            <a href="/recipes/<%= product._id %>">Learn More</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <% } %>
+            </ul>
+        </section>
+    </main>
+
+    <%- include('../partials/footer.ejs') %>
+</body>
+
+</html>

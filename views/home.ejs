@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/header.ejs', {title: "Julio's Mexican Recipes"}) %>
+    <link rel="stylesheet" href="/styles/home.css">
+    <meta name="google-site-verification" content="XaCm39Jse4ofnCMRNVFjPZ0_hFr0kMPUbUf98Nf0GNw" />
+</head>
+    
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <main>
+        <section class="front-display">
+            <h2>Find Your New Favorite Mexican Recipe! </h2>
+            <a href="/recipes" class="btn">Browse Now!</a>
+        </section>
+
+        <section class="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <ul class="recipe-grid">
+                <% for (let product of Recipe) { %>
+                <li>
+                    <img src="<%= product.picture %>" alt="cookies!"/>
+                    <h3><%= product.name %></h3>
+                    <p>Food Type: <%= product.foodType %> </p>
+                    <a href="/recipes/<%= product._id %>" class="btn">Make Now!</a>
+                </li>
+                <% } %>
+            </ul>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Julio's Mexican Recipes, your go-to source for delicious, authentic Mexican dishes. Our MEN stack application, built with EJS, MongoDB, Javascript, and CSS, is designed to make it easy for users to explore a vast array of traditional Mexican recipes, as well as to share their own culinary creations with the wider community. Our platform provides a personalized experience, allowing users to create profiles, save their favorite recipes, and even upload their own recipes for others to try. At Julio's Mexican Recipes, we are passionate about sharing the rich heritage of Mexican cuisine with the world, and we are committed to providing a user-friendly, engaging platform that inspires our users to create amazing dishes that are both authentic and delicious. So whether you are a seasoned home cook or just starting out, we invite you to join us on this exciting culinary journey!
+            </p>
+
+        </section>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>

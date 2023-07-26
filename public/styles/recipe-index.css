@@ -1,0 +1,166 @@
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+body{
+    background-image: linear-gradient(to right, rgba(76, 175, 80, 1) , rgba(244, 67, 54, 1));
+}
+
+header {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+footer {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+
+
+.listings {
+    margin-top: 50px;
+    
+}
+
+.listings h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.listings ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listings li {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+}
+
+.listings li img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: left;
+    background-color: rgba(255, 193, 7, 1);
+}
+
+.listings li h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.listings li p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.listings li a {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    text-decoration: none;
+}
+
+.listings li a:hover {
+    background-color: #555;
+}
+
+.newProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 193, 7, 1);
+    border: #333;
+    border-style: solid none solid none;
+    height: 40vh;
+}
+
+.newProfile a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+}
+
+
+.prof {
+    margin-top: 50px;
+    
+}
+
+.prof h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.prof ul {
+    list-style: none;
+    padding: 0;
+}
+
+.prof li {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+}
+
+.prof li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prof li h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 1rem 2rem;
+}
+
+.prof li p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.prof li a {
+    background-color: rgba(255, 87, 34, 1);
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+    text-decoration: none;
+}
+
+.prof li a:hover {
+    background-color: #555;
+}

@@ -1,0 +1,109 @@
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin: 4vh auto;
+    /* background-color: rgba(244, 67, 54, .95); */
+    background-color: rgba(76, 175, 80, 1);
+    border: 20px solid white;
+}
+body {
+    /* background-color: rgba(76, 175, 80, 1); */
+    /* background-color: rgba(244, 67, 54, .95); */
+    background-color: #BF1000;
+}
+
+.read {
+    background-color: white;
+}
+
+img {
+    width: 60%;
+    min-width: 300px;
+    height: 30%;
+    min-height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.recipe-name {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: left;
+    margin: 0 20%;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.featured {
+    background-color: #ffd700;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: auto;
+}
+li {
+    margin-bottom: 10px;
+}
+.review {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(254, 193, 150, 0.7);
+}
+
+input {
+    margin: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.actions {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.bttn{
+    
+    background-color: #333;
+
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.bttn a {
+    color: #fff;
+    
+}
