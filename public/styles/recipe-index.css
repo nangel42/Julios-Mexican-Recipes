@@ -1,6 +1,6 @@
 /* Main content styles */
 main {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
@@ -21,12 +21,12 @@ footer {
 
 .listings {
     margin-top: 50px;
-    
 }
 
 .listings h1 {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 50px;
 }
 
 .listings ul {
@@ -35,21 +35,27 @@ footer {
 }
 
 .listings li {
+    margin: 0 auto;
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 4px;
     position: relative;
     text-align: center;
+    width: 75%;
+    overflow: hidden;
+    background-color: #d6d6d6; /* Background for cards */
 }
 
 .listings li img {
     max-width: 100%;
-    height: auto;
+    max-height: 750px;
+    object-fit: cover;
 }
 
 figcaption {
     text-align: left;
     background-color: rgba(255, 193, 7, 1);
+    padding: 2%;
 }
 
 .listings li h4 {
@@ -63,8 +69,9 @@ figcaption {
 }
 
 .listings li a {
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    background-color: #BF1000;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     padding: 10px 20px;
     border: none;

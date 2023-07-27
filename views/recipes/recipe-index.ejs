@@ -12,11 +12,11 @@
 
     <main>
         <section class="listings">
-            <h1>Current Recipes!</h1>
+            <h1>Current Recipes</h1>
             <ul>
                 <% for (let product of Recipe) { %>
                 <li>
-                    <figure>
+                    <!-- <figure> -->
                         <img src="<%= product.picture %>">
                         <figcaption>
                             <h4><%= product.name %></h4>
@@ -26,7 +26,7 @@
                             <br>
                             <a href="/recipes/<%= product._id %>">Learn More</a>
                         </figcaption>
-                    </figure>
+                    <!-- </figure> -->
                 </li>
                 <% } %>
             </ul>

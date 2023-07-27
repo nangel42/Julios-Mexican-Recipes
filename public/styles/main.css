@@ -120,7 +120,8 @@ nav a {
     font-size: 1.2rem;
     /* background-color: rgba(255, 87, 34, .8); */
     background-color: #BF1000;
-    color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    /* color: rgb(13, 19, 33); */
     border: none;
     border-radius: 3px;
     cursor: pointer;

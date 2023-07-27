@@ -89,7 +89,7 @@ const recipes = [
         isFeatured: false,
     },
     {
-        name: 'Nachos!',
+        name: 'Nachos',
         description: 'Nachos are a popular Mexican dish made with tortilla chips and cheese. They are often served as an appetizer or snack, but can also be a meal.',
         ingredients: '1 Standard Size Bag Of Tortilla Chips, 1 pound of cheese such as cheddar Monterrey Jack or Colby Jack, shredded, Optional Ingredients: Any meat of choice (Pollo Asada, Carne Asada, Shredded Pork), Beans (Pinto or black beans), Veggies (Jalapenos, Tomatoes, Onions, etc.)',
         instructions: 'Preheat oven to 350 degrees Farenheit. Spread chips over cookie sheet. Sprinkle half of the grated cheese over the chips. Sprinkle toppings over the chips and cheese, Sprinkle on remaining cheese. Bake for 5-10 minutes, or until cheese is melted and bubbly. Serve immediately.',
