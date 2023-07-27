@@ -118,7 +118,7 @@ nav a:hover {
     background-color: #BF1000;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    
+    border-radius: 4px;
 }
 
 .btn:hover {

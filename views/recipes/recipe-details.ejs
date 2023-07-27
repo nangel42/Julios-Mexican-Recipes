@@ -11,19 +11,19 @@
     <%- include('../partials/nav.ejs') %>
 
     <main>
-            <img src="<%= Recipe.picture %>">
         <div class = "read">
+            <img src="<%= Recipe.picture %>">
+        
             <div class="info">
                 <h2 class="recipe-name"><%= Recipe.name %></h2>
                 <section>
-                    <p><strong>Description:</strong> <%= Recipe.description %></p>
-                    <p><strong>Food Type:</strong> <%= Recipe.foodType %></p>
-                    <p><strong>Ingredients:</strong> <%= Recipe.ingredients %></p>
-                    <p><strong>Instructions:</strong> <%= Recipe.instructions %></p>
+                    <p>Description: <%= Recipe.description %></p>
+                    <p>Food Type: <%= Recipe.foodType %></p>
+                    <p>Ingredients: <%= Recipe.ingredients %></p>
+                    <p>Instructions: <%= Recipe.instructions %></p>
                 </section>
                 <section class="actions">
-
-                    <button class="bttn"><a href="/recipes/<%= Recipe._id %>/edit">Edit Recipe</a></button>
+                    <a href="/recipes/<%= Recipe._id %>/edit" class="btn">Edit Recipe</a>
                     
                     <form action="/recipes/<%= Recipe._id %>?_method=DELETE" method="POST">
                         <input type="submit" value="Delete Recipe">
