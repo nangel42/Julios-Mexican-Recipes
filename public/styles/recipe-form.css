@@ -1,12 +1,21 @@
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
+    background-image: linear-gradient(to right, rgba(76, 175, 80, 1) , #BF1000);
     color: #333;
 }
 
-h1 {
+main h1 {
     text-align: center;
-    margin-top: 20px;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 form {
@@ -15,10 +24,14 @@ form {
     margin: 0 auto 2rem auto;
 }
 
+
+
+
 label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 input[type="text"],
@@ -39,8 +52,8 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #333;
-    color: #fff;
+    background-color: #BF1000;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -55,12 +68,14 @@ input[type="submit"]:hover {
 }
 
 textarea{
-    font-family: Arial, sans-serif;
+    font-family: PapayaSunrise;
     font-size: 18px;
 }
 input{
     font-size: 18px;
+    font-family: PapayaSunrise;
 }
 select{
-    font-size: 18px;
+    font-size: 12px;
+    font-family: PapayaSunrise;
 }

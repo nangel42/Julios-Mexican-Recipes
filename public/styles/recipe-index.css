@@ -24,9 +24,11 @@ footer {
 }
 
 .listings h1 {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .listings ul {
