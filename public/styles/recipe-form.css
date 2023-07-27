@@ -24,9 +24,6 @@ form {
     margin: 0 auto 2rem auto;
 }
 
-
-
-
 label {
     display: inline-block;
     margin-bottom: 5px;
@@ -73,9 +70,12 @@ textarea{
 }
 input{
     font-size: 18px;
-    font-family: PapayaSunrise;
+    /* font-family: PapayaSunrise; */
 }
 select{
     font-size: 12px;
     font-family: PapayaSunrise;
+}
+input[type="photo"] {
+    font-family:Arial, Helvetica, sans-serif ;
 }

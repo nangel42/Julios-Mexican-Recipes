@@ -10,48 +10,48 @@
 <body>
     
     <%- include('../partials/nav.ejs') %>
+    <main>
+        <h1>Edit Recipe Form</h1>
 
-    <h1>Edit Recipe Form</h1>
-
-    <form method="POST" action="/recipes/<%= Recipe._id %>?_method=PUT">
-        <!-- Name input -->
-        <label for="name">Name of Recipe:</label>
-        <input type="text" id="name" name="name" value= '<%= Recipe.name %>' >
-        <br>
-        <!-- description input -->
-        <label for="description">Description:</label>
-        <!-- <input type="text" name="description" value= '<%= Recipe.description %>' > -->
-        <textarea type="text" name="description"><%= Recipe.description %></textarea>
-        <br>
-        <!-- ingredients input -->
-        <label for="ingredients">Ingredients:</label>
-        <!-- <input type="text" name="ingredients" value= '<%= Recipe.ingredients %>' > -->
-        <textarea type="text" name="ingredients"><%= Recipe.ingredients %></textarea>
-        <br>
-        <!-- instructions input -->
-        <label for="instructions">Instructions:</label>
-        <!-- <input type="text" name="instructions" value= '<%= Recipe.instructions %>' > -->
-        <textarea type="text" name="instructions"><%= Recipe.instructions %></textarea>
-        <br>
-        <!-- picture input -->
-        <label for="picture">Picture (URL):</label>
-        <input type="text" id="photo" name="photo" value= '<%= Recipe.picture %>' >
-        <br>
-        <!-- foodType input -->
-        <label for="foodType">Food Type:</label>
-        <select id="foodType" name="foodType" value= '<%= Recipe.foodType %>' >
-            <option value="Breakfast">Breakfast</option>
-            <option value="Lunch">Lunch</option>
-            <option value="Dinner">Dinner</option>
-            <option value="Dessert">Dessert</option>
-            <option value="Drink">Drink</option>
-            <option value="Other">Other</option>
-        </select>
-        <br>
-        
-        <input type="submit" value="Update Recipe">
-    </form>
-
+        <form method="POST" action="/recipes/<%= Recipe._id %>?_method=PUT">
+            <!-- Name input -->
+            <label for="name">Name of Recipe:</label>
+            <input type="text" id="name" name="name" value= '<%= Recipe.name %>' >
+            <br>
+            <!-- description input -->
+            <label for="description">Description:</label>
+            <!-- <input type="text" name="description" value= '<%= Recipe.description %>' > -->
+            <textarea type="text" name="description"><%= Recipe.description %></textarea>
+            <br>
+            <!-- ingredients input -->
+            <label for="ingredients">Ingredients:</label>
+            <!-- <input type="text" name="ingredients" value= '<%= Recipe.ingredients %>' > -->
+            <textarea type="text" name="ingredients"><%= Recipe.ingredients %></textarea>
+            <br>
+            <!-- instructions input -->
+            <label for="instructions">Instructions:</label>
+            <!-- <input type="text" name="instructions" value= '<%= Recipe.instructions %>' > -->
+            <textarea type="text" name="instructions"><%= Recipe.instructions %></textarea>
+            <br>
+            <!-- picture input -->
+            <label for="picture">Picture (URL):</label>
+            <input type="text" id="photo" name="photo" value= '<%= Recipe.picture %>' >
+            <br>
+            <!-- foodType input -->
+            <label for="foodType">Food Type:</label>
+            <select id="foodType" name="foodType" value= '<%= Recipe.foodType %>' >
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Dinner">Dinner</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Drink">Drink</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            
+            <input type="submit" value="Update Recipe">
+        </form>
+    </main>
     <%- include('../partials/footer.ejs') %>
 
 </body>
