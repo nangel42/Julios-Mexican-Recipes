@@ -5,12 +5,13 @@
 }
 
 .about h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .about p {
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 /* Front Display section */
@@ -26,7 +27,7 @@
 }
 
 .featured-recipes h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -53,14 +54,16 @@
 }
 
 .recipe-grid h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0.5rem 1rem;
 }
 
 .recipe-grid p {
     margin: 0.5rem 1rem;
+    font-size: 1.3rem;
 }
 
 .btn {
     margin-left: 10px;
+    margin-top: 100px;
 }
