@@ -13,9 +13,15 @@
     margin-bottom: 1rem;
 }
 
+/* Front Display section */
+.front-display h2 {
+    padding: 15px;
+}
+
 /* Featured Recipes section styles */
 .featured-recipes {
-    background-color: rgba(244, 67, 54, .95);
+    /* background-color: rgba(244, 67, 54, .95); */
+    background-color: #BF1000;
     padding: 2rem;
 }
 
@@ -53,4 +59,8 @@
 
 .recipe-grid p {
     margin: 0.5rem 1rem;
+}
+
+.btn {
+    margin-left: 10px;
 }

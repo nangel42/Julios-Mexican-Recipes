@@ -6,21 +6,23 @@
 }
 
 /* Fonts */
+/* Headers and Title */
 @font-face {
     font-family: TequilaSunset;
     src: url('../fonts/TequilaSunsetRegular-J8ME.ttf');
 }
-
+/* Default Text */
 @font-face {
     font-family: PapayaSunrise;
     src: url('../fonts/PapayaSunrise-OzdO.ttf');
+    font-weight: bolder;
 }  
-
+/*  */
 @font-face {
     font-family: TacoSalad;
     src: url('../fonts/TacoSalad-vmWM.ttf');
 }  
-
+/*  */
 @font-face {
     font-family: PresTequila;
     src: url('../fonts/PresidenteTequila-jD59.ttf');
@@ -116,7 +118,8 @@ nav a {
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    background-color: rgba(255, 87, 34, .8);
+    /* background-color: rgba(255, 87, 34, .8); */
+    background-color: #BF1000;
     color: rgb(13, 19, 33);
     border: none;
     border-radius: 3px;

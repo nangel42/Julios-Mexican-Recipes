@@ -24,7 +24,8 @@ body {
 
 h1 {
     font-size: calc(36px + 5vw);
-    color: rgba(255, 0, 0, 0.973);
+    /* color: rgba(255, 0, 0, 0.973); */
+    color: #BF1000
 }
 h2 {
     font-size: calc(36px + 2vw);

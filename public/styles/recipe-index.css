@@ -6,7 +6,7 @@ main {
     background-color: white;
 }
 body{
-    background-image: linear-gradient(to right, rgba(76, 175, 80, 1) , rgba(244, 67, 54, 1));
+    background-image: linear-gradient(to right, rgba(76, 175, 80, 1) , #BF1000);
 }
 
 header {
