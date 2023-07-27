@@ -5,8 +5,10 @@
 }
 
 .about h2 {
-    font-size: 3rem;
+    font-size: 70px;
     margin-bottom: 1rem;
+    font-family: PresTequila;
+    letter-spacing: 3px;
 }
 
 .about p {
@@ -17,6 +19,9 @@
 /* Front Display section */
 .front-display h2 {
     padding: 15px;
+    font-family: PresTequila;
+    font-size: 60px;
+    letter-spacing: 3px;
 }
 
 /* Featured Recipes section styles */
@@ -27,8 +32,10 @@
 }
 
 .featured-recipes h2 {
-    font-size: 3rem;
+    font-size: 70px;
     margin-bottom: 1rem;
+    font-family: PresTequila;
+    letter-spacing: 3px;
 }
 
 .recipe-grid {
@@ -56,6 +63,8 @@
 .recipe-grid h3 {
     font-size: 2rem;
     margin: 0.5rem 1rem;
+    font-family: PresTequila;
+    letter-spacing: 1px;
 }
 
 .recipe-grid p {

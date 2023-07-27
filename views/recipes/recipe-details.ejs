@@ -10,26 +10,28 @@
 <body>
     <%- include('../partials/nav.ejs') %>
 
-<div>
-        <img src="<%= Recipe.picture %>">
-    <div class = "read">
-        <h2 class="recipe-name"><%= Recipe.name %></h2>
-        <section>
-            <p><strong>Description:</strong> <%= Recipe.description %></p>
-            <p><strong>Food Type:</strong> <%= Recipe.foodType %></p>
-            <p><strong>Ingredients:</strong> <%= Recipe.ingredients %></p>
-            <p><strong>Instructions:</strong> <%= Recipe.instructions %></p>
-        </section>
-        <section class="actions">
+    <main>
+            <img src="<%= Recipe.picture %>">
+        <div class = "read">
+            <div class="info">
+                <h2 class="recipe-name"><%= Recipe.name %></h2>
+                <section>
+                    <p><strong>Description:</strong> <%= Recipe.description %></p>
+                    <p><strong>Food Type:</strong> <%= Recipe.foodType %></p>
+                    <p><strong>Ingredients:</strong> <%= Recipe.ingredients %></p>
+                    <p><strong>Instructions:</strong> <%= Recipe.instructions %></p>
+                </section>
+                <section class="actions">
 
-             <button class="bttn"><a href="/recipes/<%= Recipe._id %>/edit">Edit Recipe</a></button>
-            
-            <form action="/recipes/<%= Recipe._id %>?_method=DELETE" method="POST">
-                <input type="submit" value="Delete Recipe">
-            </form>
-        </section>
-    </div>
-</div> 
+                    <button class="bttn"><a href="/recipes/<%= Recipe._id %>/edit">Edit Recipe</a></button>
+                    
+                    <form action="/recipes/<%= Recipe._id %>?_method=DELETE" method="POST">
+                        <input type="submit" value="Delete Recipe">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
 
     <%- include('../partials/footer.ejs') %>
 </body>

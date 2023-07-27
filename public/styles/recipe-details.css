@@ -1,21 +1,27 @@
-div {
+/* div {
     max-width: 800px;
-    margin: 0 auto;
     text-align: center;
     padding: 20px;
     margin: 4vh auto;
-    /* background-color: rgba(244, 67, 54, .95); */
     background-color: rgba(76, 175, 80, 1);
     border: 20px solid white;
-}
-body {
-    /* background-color: rgba(76, 175, 80, 1); */
-    /* background-color: rgba(244, 67, 54, .95); */
-    background-color: #BF1000;
+} */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
 }
 
+body {
+    /* background-color: #f8f8f8; */
+    background-image: linear-gradient(to right, rgba(76, 175, 80, 1) , #BF1000);
+    color: #333;
+}
 .read {
     background-color: white;
+    padding: -50px;
 }
 
 img {
@@ -28,8 +34,10 @@ img {
 }
 
 .recipe-name {
-    font-size: 32px;
+    font-size: 60px;
     margin-bottom: 10px;
+    font-family: PresTequila;
+    letter-spacing: 2px;
 }
 
 section {
