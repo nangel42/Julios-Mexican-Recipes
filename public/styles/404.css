@@ -20,15 +20,17 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    font-family: Santiago;
 }
 
 h1 {
     font-size: calc(36px + 5vw);
-    /* color: rgba(255, 0, 0, 0.973); */
+    font-family: TequilaSunset;
     color: #BF1000
 }
 h2 {
     font-size: calc(36px + 2vw);
+    font-family: TequilaSunset;
 }
 
 p,
@@ -40,4 +42,15 @@ a {
 
 a {
     margin-top: auto;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #BF1000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: rgb(54, 124, 57);
 }
